@@ -16,7 +16,7 @@ $ mvn spring-boot:run
 
 While running the project you can access the following url (using GET method) in order to test it manually:
 ```
-http://localhost:8080/data/city=<SOME_CITY>
+http://localhost:8080/data/<SOME_CITY>
 ```
 
 ## Built With
