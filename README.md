@@ -2,8 +2,6 @@ WeatherForecast-API
 
 This project uses openweathermap API and returns the average temperature (daily and nightly) and pressure of a given city
 
-The
-
 ### Prerequisites
 * Java 1.8 or above
 * Maven
@@ -23,7 +21,7 @@ http://localhost:8080/data/<SOME_CITY>
 
 * [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - The language used
 * [Spring Boot 2.1.1](http://spring.io/projects/spring-boot) - The web framework used
-* [Lombok]
+* [Lombok](https://projectlombok.org/)- Lombok is used to reduce boilerplate code for model/data objects,
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Swagger](https://swagger.io/) - API Documentationmvn spring-boot:run
 
@@ -40,7 +38,7 @@ How to access the API?
 
 Also as mentioned on the swagger specs, there currently exposed is a GET API with a parameter cityName
 
-Below is the sample URL of the API exposed in order to get the weather forecast parameters. Below URL can find the average weather forecast for 3 days of Bangalore ,India. Please feel free to update these parameters and get the weather data of cities.
+Below is the sample URL of the API exposed in order to get the weather forecast parameters. Below URL can find the average weather forecast for 3 days of Bangalore. Please feel free to update these parameters and get the weather data of cities.
 
 URL : http://localhost:9067/weather/v1/data/Bangalore
 
