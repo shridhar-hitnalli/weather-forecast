@@ -26,7 +26,7 @@ http://localhost:8080/data/<SOME_CITY>
 * [Swagger](https://swagger.io/) - API Documentationmvn spring-boot:run
 
 
-Swagger specs :
+## Swagger specs :
 
 Swagger usually helps in the smart way of having technical documentation of the API. Please refer to the Swagger specs at http://localhost:9067/swagger-ui.html. URL . At this URL you will know the structure of the request (which is te http GET request) and the JSON response structure as well. You will also be able to hit the request from the swagger and get the json response back on the UI and play with it. The app is currently configured to run on the port 9067 of the localhost ( In case you are running it on the local server ), however you are free to change it anytime you need ( In case you wish to deploy it to a different server ) by updating it in the application.properties file.
 
