@@ -14,7 +14,11 @@ $ mvn spring-boot:run
 
 While running the project you can access the following url (using GET method) in order to test it manually:
 ```
-http://localhost:8080/data/<SOME_CITY>
+http://
+
+
+
+:8888/data/<SOME_CITY>
 ```
 
 ## Built With
@@ -28,7 +32,7 @@ http://localhost:8080/data/<SOME_CITY>
 
 ## Swagger specs :
 
-Swagger usually helps in the smart way of having technical documentation of the API. Please refer to the Swagger specs at http://localhost:9067/swagger-ui.html. URL . At this URL you will know the structure of the request (which is te http GET request) and the JSON response structure as well. You will also be able to hit the request from the swagger and get the json response back on the UI and play with it. The app is currently configured to run on the port 9067 of the localhost ( In case you are running it on the local server ), however you are free to change it anytime you need ( In case you wish to deploy it to a different server ) by updating it in the application.properties file.
+Swagger usually helps in the smart way of having technical documentation of the API. Please refer to the Swagger specs at http://localhost:8888/swagger-ui.html. URL . At this URL you will know the structure of the request (which is te http GET request) and the JSON response structure as well. You will also be able to hit the request from the swagger and get the json response back on the UI and play with it. The app is currently configured to run on the port 9067 of the localhost ( In case you are running it on the local server ), however you are free to change it anytime you need ( In case you wish to deploy it to a different server ) by updating it in the application.properties file.
 
 How does the API get the weather data?
 
@@ -40,7 +44,7 @@ Also as mentioned on the swagger specs, there currently exposed is a GET API wit
 
 Below is the sample URL of the API exposed in order to get the weather forecast parameters. Below URL can find the average weather forecast for 3 days of Bangalore. Please feel free to update these parameters and get the weather data of cities.
 
-URL : http://localhost:9067/weather/v1/data/Bangalore
+URL : http://localhost:8888/weather/v1/data/Bangalore
 
 Apart from the URL you will have to add appropriate header ex : Accept : application/json. in the request.
 
@@ -48,4 +52,4 @@ Apart from the URL you will have to add appropriate header ex : Accept : applica
 
 Please refer the Swagger ui for the response json structure.
 
-http://localhost:9067/swagger-ui.html
+http://localhost:8888/swagger-ui.html
