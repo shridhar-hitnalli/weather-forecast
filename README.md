@@ -8,7 +8,7 @@ This project uses openweathermap API and returns the average temperature (daily 
 
 ## Running
 Run the project by execute the command:
-```$xslt
+```
 $ mvn spring-boot:run
 ```
 
@@ -23,7 +23,7 @@ http://localhost:8888/data/<SOME_CITY>
 * [Spring Boot 2.1.1](http://spring.io/projects/spring-boot) - The web framework used
 * [Lombok](https://projectlombok.org/)- Lombok is used to reduce boilerplate code for model/data objects,
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Swagger](https://swagger.io/) - API Documentationmvn spring-boot:run
+* [Swagger](https://swagger.io/) - API Documentation
 
 
 ## Swagger specs :
